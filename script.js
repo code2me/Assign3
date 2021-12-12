@@ -23,7 +23,7 @@ let abc = setInterval(function () {
     if(n > 10) {
         clearInterval(abc);
     }
-}, 5000);
+}, 2000);
 
 function getRandomColor() {
     var letters = '0123456789ABCDEF';
